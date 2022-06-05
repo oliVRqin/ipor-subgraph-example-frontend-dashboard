@@ -130,9 +130,11 @@ export default function Home() {
         <p>Logs</p>
         <p>{logState}</p>
       </main>
-      <LineChart width={600}
-                        height={400}
-                        data={data} />
+      <LineChart 
+        width={600}
+        height={400}
+        data={data} 
+      />
       <PieChart
         data={[
           { title: 'One', value: 10, color: '#E38627' },
